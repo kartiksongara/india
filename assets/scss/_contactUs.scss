@@ -1,0 +1,159 @@
+[data-page-name="contactsection"] {
+    &.contactsection {
+        background: linear-gradient(45deg, #0f0f0f8a, #1e1f208a),
+            url(../image/home/contactus/group-happy-people-playing-summer-sunset-nature.jpg);
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: 999;
+        opacity: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-color: #335775;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin contactsection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin contactsection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin contactsection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin contactsection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin contactsection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin contactsection-mixin-max-xs() {
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin contactsection-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin contactsection-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin contactsection-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin contactsection-mixin-max-xl() {
+}
+
+// -------------------------------------------------------contactSectionb------------------------------------------------------------------
+[data-page-name="contactform"] {
+    &.contactform {
+        & .info-box {
+            color: #444;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+            padding: 20px 0 30px 0;
+            margin-bottom: 30px;
+            width: 100%;
+            border-radius: 20px;
+            position: relative;
+        }
+        & .icon {
+            margin: auto;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 2px dotted rgba(20, 27, 36, 0.3803921569);
+            & img {
+                padding: 8px;
+            }
+        }
+        & .headingcontact {
+            font-size: 17px;
+            color: #666;
+            font-weight: 600;
+            margin: 7px 0;
+        }
+        & .perograph {
+            padding: 0;
+            line-height: 24px;
+            font-size: 14px;
+            margin-bottom: -20px;
+            color: #444;
+        }
+        & .php-email-form {
+            box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+            padding: 30px;
+            border-radius: 20px;
+            position: relative;
+            margin-bottom: 10px;
+            & input {
+                padding: 10px 15px;
+                font-size: 14px;
+                border-radius: 4px;
+            }
+            & .form-group {
+                margin-bottom: 25px;
+            }
+            & .form-group {
+                margin-bottom: 25px;
+            }
+            & textarea {
+                padding: 12px 15px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin contactform-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin contactform-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin contactform-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin contactform-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin contactform-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin contactform-mixin-max-xs() {
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin contactform-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin contactform-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin contactform-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin contactform-mixin-max-xl() {
+}
+// -------------------------------------------------------Map------------------------------------------------------------------

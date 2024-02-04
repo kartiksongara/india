@@ -1,0 +1,193 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    @include homePage-mixin-min-sm();
+    @include sectionpackage-mixin-min-sm();
+    @include travelStories-mixin-min-sm();
+    @include aboutIndiaSection-mixin-min-sm();
+    @include recomendedSection-mixin-min-sm();
+    @include footermain-mixin-min-sm();
+    @include heading-mixin-min-sm();
+    @include mainbtn-mixin-min-sm();
+    @include whyChooseSection-mixin-min-sm();
+    @include contactsection-mixin-min-sm();
+    @include contactform-mixin-min-sm();
+    @include aboutus-mixin-min-sm();
+    @include travelInformation-mixin-min-sm();
+    @include blogs-mixin-min-sm();
+    @include find_Best_Thingd_Section-mixin-min-sm();
+}
+
+// Mdium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    @include homePage-mixin-min-md();
+    @include sectionpackage-mixin-min-md();
+    @include travelStories-mixin-min-md();
+    @include aboutIndiaSection-mixin-min-md();
+    @include recomendedSection-mixin-min-md();
+    @include footermain-mixin-min-md();
+    @include heading-mixin-min-md();
+    @include mainbtn-mixin-min-md();
+    @include whyChooseSection-mixin-min-md();
+    @include contactsection-mixin-min-md();
+    @include contactform-mixin-min-md();
+    @include aboutus-mixin-min-md();
+    @include travelInformation-mixin-min-md();
+    @include blogs-mixin-min-md();
+    @include find_Best_Thingd_Section-mixin-min-md();
+}
+
+// Lrge devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    @include homePage-mixin-min-lg();
+    @include sectionpackage-mixin-min-lg();
+    @include travelStories-mixin-min-lg();
+    @include aboutIndiaSection-mixin-min-lg();
+    @include recomendedSection-mixin-min-lg();
+    @include footermain-mixin-min-lg();
+    @include heading-mixin-min-lg();
+    @include mainbtn-mixin-min-lg();
+    @include whyChooseSection-mixin-min-lg();
+    @include contactsection-mixin-min-lg();
+    @include contactform-mixin-min-lg();
+    @include aboutus-mixin-min-lg();
+    @include travelInformation-mixin-min-lg();
+    @include blogs-mixin-min-lg();
+    @include find_Best_Thingd_Section-mixin-min-lg();
+}
+
+// XLarge devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    @include homePage-mixin-min-xl();
+    @include sectionpackage-mixin-min-xl();
+    @include travelStories-mixin-min-xl();
+    @include aboutIndiaSection-mixin-min-xl();
+    @include recomendedSection-mixin-min-xl();
+    @include footermain-mixin-min-xl();
+    @include heading-mixin-min-xl();
+    @include mainbtn-mixin-min-xl();
+    @include whyChooseSection-mixin-min-xl();
+    @include contactsection-mixin-min-xl();
+    @include contactform-mixin-min-xl();
+    @include aboutus-mixin-min-xl();
+    @include travelInformation-mixin-min-xl();
+    @include blogs-mixin-min-xl();
+    @include find_Best_Thingd_Section-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    @include homePage-mixin-min-xxl();
+    @include sectionpackage-mixin-min-xxl();
+    @include travelStories-mixin-min-xxl();
+    @include aboutIndiaSection-mixin-min-xxl();
+    @include recomendedSection-mixin-min-xxl();
+    @include footermain-mixin-min-xxl();
+    @include heading-mixin-min-xxl();
+    @include mainbtn-mixin-min-xxl();
+    @include whyChooseSection-mixin-min-xxl();
+    @include contactsection-mixin-min-xxl();
+    @include contactform-mixin-min-xxl();
+    @include aboutus-mixin-min-xxl();
+    @include travelInformation-mixin-min-xxl();
+    @include blogs-mixin-min-xxl();
+    @include find_Best_Thingd_Section-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    @include homePage-mixin-max-xl();
+    @include sectionpackage-mixin-max-xl();
+    @include travelStories-mixin-max-xl();
+    @include aboutIndiaSection-mixin-max-xl();
+    @include recomendedSection-mixin-max-xl();
+    @include footermain-mixin-max-xl();
+    @include heading-mixin-max-xl();
+    @include mainbtn-mixin-max-xl();
+    @include whyChooseSection-mixin-max-xl();
+    @include contactsection-mixin-max-xl();
+    @include contactform-mixin-max-xl();
+    @include aboutus-mixin-max-xl();
+    @include travelInformation-mixin-max-xl();
+    @include blogs-mixin-max-xl();
+    @include find_Best_Thingd_Section-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    @include homePage-mixin-max-lg();
+    @include sectionpackage-mixin-max-lg();
+    @include travelStories-mixin-max-lg();
+    @include aboutIndiaSection-mixin-max-lg();
+    @include recomendedSection-mixin-max-lg();
+    @include footermain-mixin-max-lg();
+    @include heading-mixin-max-lg();
+    @include mainbtn-mixin-max-lg();
+    @include whyChooseSection-mixin-max-lg();
+    @include contactsection-mixin-max-lg();
+    @include contactform-mixin-max-lg();
+    @include aboutus-mixin-max-lg();
+    @include travelInformation-mixin-max-lg();
+    @include blogs-mixin-max-lg();
+    @include find_Best_Thingd_Section-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    @include homePage-mixin-max-md();
+    @include sectionpackage-mixin-max-md();
+    @include travelStories-mixin-max-md();
+    @include aboutIndiaSection-mixin-max-md();
+    @include recomendedSection-mixin-max-md();
+    @include footermain-mixin-max-md();
+    @include heading-mixin-max-md();
+    @include mainbtn-mixin-max-md();
+    @include whyChooseSection-mixin-max-md();
+    @include contactsection-mixin-max-md();
+    @include contactform-mixin-max-md();
+    @include aboutus-mixin-max-md();
+    @include travelInformation-mixin-max-md();
+    @include blogs-mixin-max-md();
+    @include find_Best_Thingd_Section-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    @include homePage-mixin-max-sm();
+    @include sectionpackage-mixin-max-sm();
+    @include travelStories-mixin-max-sm();
+    @include aboutIndiaSection-mixin-max-sm();
+    @include recomendedSection-mixin-max-sm();
+    @include footermain-mixin-max-sm();
+    @include heading-mixin-max-sm();
+    @include whyChooseSection-mixin-max-sm();
+    @include contactsection-mixin-max-sm();
+    @include contactform-mixin-max-sm();
+    @include aboutus-mixin-max-sm();
+    @include travelInformation-mixin-max-sm();
+    @include blogs-mixin-max-sm();
+    @include find_Best_Thingd_Section-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    @include homePage-mixin-max-xs();
+    @include sectionpackage-mixin-max-xs();
+    @include travelStories-mixin-max-xs();
+    @include aboutIndiaSection-mixin-max-xs();
+    @include recomendedSection-mixin-max-xs();
+    @include footermain-mixin-max-xs();
+    @include heading-mixin-max-xs();
+    @include whyChooseSection-mixin-max-xs();
+    @include contactsection-mixin-max-xs();
+    @include contactform-mixin-max-xs();
+    @include aboutus-mixin-max-xs();
+    @include travelInformation-mixin-max-xs();
+    @include blogs-mixin-max-xs();
+    @include find_Best_Thingd_Section-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

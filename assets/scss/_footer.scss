@@ -1,0 +1,222 @@
+.footermain {
+    background-image: url(../image/home/pattern-2.png);
+    
+    & .aboutimage {
+        text-align: center;
+        & .flogo {
+            height: 100px;
+            width: 100%;
+        }
+    }
+    & .useful-links {
+        & .footerHeading {
+            font-size: 18px;
+            font-weight: 700;
+            color: $theme1;
+            margin-bottom: 10px;
+        }
+        & .list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            & .itemelist {
+                transition: all 0.3s ease-in-out;
+                & a {
+                    font-size: 14px;
+                    font-weight: 400;
+
+                    & span {
+                        width: 15px;
+                        height: 15px;
+                    }
+                    
+                }
+                &:hover {
+                    padding-left: 10px;
+                    & a{
+                        &:hover{
+                            color: $theme1;
+                        }
+                    }
+                    
+                }
+            }
+            &.contactSide {
+                & li {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 5px;
+                    & span {
+                        width: 32px;
+                        height: 16px;
+                    }
+                    & .addres{
+                        font-size: 14px;
+                        font-weight: 400;
+                        width: unset;
+                        height: unset;
+                    }
+                    & a{
+                        font-size: 14px;
+                        font-weight: 400;
+                        &:hover{
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin footermain-mixin-min-sm() {}
+
+// Medium devices (tablets, 768px and up)
+@mixin footermain-mixin-min-md() {}
+
+// Large devices (desktops, 992px and up)
+@mixin footermain-mixin-min-lg() {}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin footermain-mixin-min-xl() {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin footermain-mixin-min-xxl() {}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin footermain-mixin-max-xs() {
+    .footermain {
+        & .aboutimage {
+            text-align: center;
+            & .flogo {
+                width: 225px;
+            }
+        }
+        & .useful-links {
+            & .footerHeading {
+                font-size: 15px;
+            }
+            & .list {
+                & .itemelist {
+                    & a {
+                        font-size: 13px;
+    
+                        & span {}
+                    }
+                    &:hover {
+                        padding-left: 10px;
+                    }
+                }
+                &.contactSide {
+                    & li {
+                        & span {}
+                        & .addres{
+                            font-size: 12px;
+                        }
+                        & a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin footermain-mixin-max-sm() {
+    .footermain {
+        & .aboutimage {
+            text-align: center;
+            & .flogo {
+                height: 50px;
+                width: 225px;
+            }
+        }
+        & .useful-links {
+            & .footerHeading {
+                font-size: 15px;
+            }
+            & .list {
+                & .itemelist {
+                    & a {
+                        font-size: 13px;
+    
+                        & span {}
+                    }
+                    &:hover {
+                        padding-left: 10px;
+                    }
+                }
+                &.contactSide {
+                    & li {
+                        & span {}
+                        & .addres{
+                            font-size: 12px;
+                        }
+                        & a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin footermain-mixin-max-md() {
+    .footermain {
+        & .aboutimage {
+            text-align: center;
+            & .flogo {
+                height: 50px;
+                width: 225px;
+            }
+        }
+        & .useful-links {
+            & .footerHeading {
+                font-size: 17px;
+            }
+            & .list {
+                & .itemelist {
+                    & a {
+                        font-size: 14px;
+    
+                        & span {}
+                    }
+                    &:hover {
+                        padding-left: 10px;
+                    }
+                }
+                &.contactSide {
+                    & li {
+                        & span {}
+                        & .addres{
+                            font-size: 14px;
+                        }
+                        & a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin footermain-mixin-max-lg() {
+    .footermain {
+        & .aboutimage {
+            text-align: center;
+            & .flogo {
+                height: 50px;
+                width: 190px;
+            }
+        }
+    }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin footermain-mixin-max-xl() {}
